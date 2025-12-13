@@ -21,6 +21,7 @@
         }
 
         .ad-banner {
+         display:none;
             background: linear-gradient(135deg, #e8e1d1 0%, #f5f0e6 100%);
             border: 2px dashed #d4af37;
             border-radius: 15px;
@@ -210,4 +211,5 @@
             .ad-banner h3 {
                 font-size: 1.1rem;
             }
+
         }
