@@ -3,53 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main-menu {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.2rem;
-    margin: 1.5rem 0;
-    padding: 0.8rem 1rem;
-    background-color: #fafafa;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.main-menu a {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.05rem;
-    color: #2c6fbb;
-    text-decoration: none;
-    padding: 0.4rem 0.6rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-
-.main-menu a:hover {
-    background-color: #f0f5ff;
-    color: #1a4a8a;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
-/* Versão mobile: empilha os links se a tela for muito estreita */
-@media (max-width: 600px) {
-    .main-menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.8rem;
-        padding: 1rem;
-    }
-
-    .main-menu a {
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
 body {
     background: linear-gradient(135deg, #f8f4e9 0%, #e6dfc8 100%);
     min-height: 100vh;
@@ -374,3 +327,4 @@ body {
   border-bottom-style: solid;
 
 }
+
